@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blue;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: white;
+    margin-left: 26%;
+    width: 600px;
+    height: 550px; 
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: orange;
+}
+
+.info {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#number-1, #number-2, #number-3{
+    width: 95%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#btn {
+    margin-left: 20px;
+    background-color: yellow;
+    width: 92%;
+    height: 35px;
+}
+
+#btn:hover {
+    background-color: rgb(216, 240, 4);
+}
+
+#results {
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: none;
+}
+
